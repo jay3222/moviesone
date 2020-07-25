@@ -1,13 +1,269 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Crimson Text', serif;
+}
+.header-img{
+ 
+  width:100vw;
+   height:100vh;
+   background-image:cover;
+   background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)),url(images/img1.jpg);
+   background-size:cover;
+   background-position: center;
+
+   background-repeat:no-repeat;
+   border-radius: 0px;
+}
+.header-text{
+  height:100vh;
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+.menu_active{
+  font-weight: bold;
+  border-bottom:1px solid cyan;
+  width:100%;
+  text-align: center;
+  color:cyan !important;
+ 
+  
 }
+@media (max-width:320px){
+  #jay1{
+    font-size: 19px !important;
+    
+  }}
+  @media (max-width:576px){
+    #jay1{
+      font-size: 22px !important;
+      
+    }}
+
+
+    @media (min-width:1200px){
+      #jay{
+        transform: translateX(1090px);
+      }}
+
+    @media (max-width:1200px){
+      #jay{
+        transform: translateX(732px);
+      }}
+      @media (max-width:992px){
+        #jay{
+          transform: translateX(515px);
+        }}
+  
+
+
+    @media (max-width:768px){
+      #jay{
+        transform: translateX(10px);
+      }}
+
+      @media (max-width:576px){
+        #jay{
+          transform: translateX(1px);
+          font-size: 10px;
+        }}
+
+  
+
+
+
+
+@media (max-width:768px){
+ 
+  .menu_active{
+    border-bottom: none;
+  }
+}
+
+/* home-para */
+@media (min-width:992px){
+  .header-para{font-size:70px;
+    letter-spacing:2px;
+    word-spacing: 3px;
+  
+}}
+@media (max-width:768px){
+  .header-para{font-size:36px;
+    
+  
+}}
+@media (max-width:576px){
+  .header-para{font-size:28px;
+    
+  
+}}
+
+
+
+@media (max-width:768px){
+  .card{
+  transform:translateX(30px);
+  -webkit-transform:translateX(30px);
+  -ms-transform:translateX(30px);
+  z-index:10;
+}}
+
+
+
+
+/* icon-bar */
+
+.icon-bar{
+  position: fixed;
+  top:50%;
+  left:0px;
+  transform:translateY(-30%);
+
+}
+
+.a1{
+
+  text-decoration: none;
+  width:220px;
+  color:#fff;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding:5px;
+  font-size:10px;
+  transform: translateX(-193px);
+  -webkit-transform: translateX(-193px);
+  -ms-transform: translateX(-193px);
+  transition: all 0.5s linear;
+  -webkit-transition:all 0.5s linear;
+  -ms-transition: all 0.5s linear;
+}
+
+
+  .a1:hover{
+
+    cursor: pointer;
+    width:320px;
+
+  }
+
+  .facebook{
+
+    background:#3b5999;
+
+  }
+  .facebook:hover{
+
+    background:#3b5999;
+    color:white;
+
+  }
+  .instagram{
+
+    background:#e4405f;
+
+  }
+  .instagram:hover{
+
+    background:#e4405f;
+    color:white;
+
+  }
+  .whatsapp{
+
+    background:#25D366;
+
+  }
+  .whatsapp:hover{
+
+    background:#25D366;
+    color:white;
+
+  }
+  
+  
+  .twitter{
+
+    background:#55acee;
+
+  }
+  
+  .twitter:hover{
+
+    background:#55acee;
+    color: white;
+
+  }
+  .youtube{
+
+    background:#cd201f;
+
+  }
+  .youtube:hover{
+
+    background:#cd201f;
+    color:white;
+
+  }
+
+  
+  
+  .a1 .i{
+  font-size: 30px;
+  animation: letszoom 3s linear alternate-reverse infinite;
+  margin-left:10px;
+  }
+@keyframes letszoom{
+  from{
+    transform: scale(0.7);
+  }
+  to{
+    transform: scale(1);
+  }
+}
+
+
+@media (max-width:576px){
+  .a1{transform: translateX(-197px);
+    font-size: 12px;
+    
+  
+}}
+
+ /* about page */
+
+ .hrtag{
+   width:250px;
+   height:10px;}
+
+   @media (max-width:576px){
+    .about-para{
+      transform: translateX(20px);
+    }
+      
+    
+  }
+  @media (max-width:768px){
+   
+    .about-para{
+      transform: translateX(10px);    }
+    
+  }
+ 
+
+  .form-div{
+    height:100vh;
+  }
+
+  .form-control:focus{
+    box-shadow:hide;
+    overflow: hidden;
+    border:1px solid yellow;
+  
+  }
+
+ 
