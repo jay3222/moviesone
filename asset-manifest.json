@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/moviesone/static/css/main.113ab298.chunk.css",
-    "main.js": "/moviesone/static/js/main.3bbd37b2.chunk.js",
-    "main.js.map": "/moviesone/static/js/main.3bbd37b2.chunk.js.map",
+    "main.css": "/moviesone/static/css/main.c9d6b623.chunk.css",
+    "main.js": "/moviesone/static/js/main.60d33cce.chunk.js",
+    "main.js.map": "/moviesone/static/js/main.60d33cce.chunk.js.map",
     "runtime-main.js": "/moviesone/static/js/runtime-main.97922ef2.js",
     "runtime-main.js.map": "/moviesone/static/js/runtime-main.97922ef2.js.map",
     "static/css/2.75c4ecca.chunk.css": "/moviesone/static/css/2.75c4ecca.chunk.css",
     "static/js/2.4558e701.chunk.js": "/moviesone/static/js/2.4558e701.chunk.js",
     "static/js/2.4558e701.chunk.js.map": "/moviesone/static/js/2.4558e701.chunk.js.map",
     "index.html": "/moviesone/index.html",
-    "precache-manifest.65bdf95378f4ad2fab98a7414a8b8c88.js": "/moviesone/precache-manifest.65bdf95378f4ad2fab98a7414a8b8c88.js",
+    "precache-manifest.33063e88104a64f4cf311f50458bad8f.js": "/moviesone/precache-manifest.33063e88104a64f4cf311f50458bad8f.js",
     "service-worker.js": "/moviesone/service-worker.js",
     "static/css/2.75c4ecca.chunk.css.map": "/moviesone/static/css/2.75c4ecca.chunk.css.map",
-    "static/css/main.113ab298.chunk.css.map": "/moviesone/static/css/main.113ab298.chunk.css.map",
+    "static/css/main.c9d6b623.chunk.css.map": "/moviesone/static/css/main.c9d6b623.chunk.css.map",
     "static/js/2.4558e701.chunk.js.LICENSE.txt": "/moviesone/static/js/2.4558e701.chunk.js.LICENSE.txt",
     "static/media/bahubali2.jpg": "/moviesone/static/media/bahubali2.6ebd0bc1.jpg",
     "static/media/dark.jpg": "/moviesone/static/media/dark.02f69ce2.jpg",
@@ -25,7 +25,7 @@
     "static/js/runtime-main.97922ef2.js",
     "static/css/2.75c4ecca.chunk.css",
     "static/js/2.4558e701.chunk.js",
-    "static/css/main.113ab298.chunk.css",
-    "static/js/main.3bbd37b2.chunk.js"
+    "static/css/main.c9d6b623.chunk.css",
+    "static/js/main.60d33cce.chunk.js"
   ]
 }
