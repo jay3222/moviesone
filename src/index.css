@@ -18,7 +18,7 @@
    border-radius: 0px;
 }
 .header-text{
-  height:100vh;
+  height:90vh;
   
 }
 
@@ -121,7 +121,7 @@
   position: fixed;
   top:50%;
   left:0px;
-  transform:translateY(-30%);
+  transform:translateY(-50%);
 
 }
 
@@ -138,9 +138,18 @@
   transform: translateX(-193px);
   -webkit-transform: translateX(-193px);
   -ms-transform: translateX(-193px);
-  transition: all 0.5s linear;
-  -webkit-transition:all 0.5s linear;
-  -ms-transition: all 0.5s linear;
+  transition: all 0.3s linear;
+  -webkit-transition:all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+}
+
+@media(max-width:568){
+  .a1{
+    transition:hide;
+    transition: none;
+
+
+  }
 }
 
 
