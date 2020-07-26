@@ -38,7 +38,7 @@ const Signin=()=>{
         <section style={{backgroundColor:'#038387'}}>
          <div className="container w-100 h-auto ">
     <div className="row">
-     <div className=" form-div col-lg-6 col-md-6 col-12 col-sm-10 d-flex flex-row mx-auto  justify-content-center align-items-center " style={{cursor:'pointer'}}>
+     <div className=" form-div col-lg-6 col-md-6 col-11 col col-sm-10 d-flex flex-row mx-auto  justify-content-center align-items-center " style={{cursor:'pointer'}}>
 <form className="text-center my-4 p-5 bg-danger text-white " onSubmit={formSubmit}>
 
     <h4 className=" mb-4">Sign in</h4>
@@ -70,12 +70,12 @@ const Signin=()=>{
           
             <div className="custom-control custom-checkbox">
                 <input type="checkbox" className="custom-control-input" id="defaultLoginFormRemember" />
-                <label className="custom-control-label ml-2" for="defaultLoginFormRemember"> Remember me</label>
+                <label className="custom-control-label ml-2" for="defaultLoginFormRemember"style={{fontSize:'13px'}}> Remember me</label>
             </div>
         
         <div>
            
-            <NavLink to="/SignUp" href="" className="ml-2 text-dark " style={{textDecoration:'none'}}> Forgot password?</NavLink>
+            <NavLink to="/SignUp" href="" className="ml-2 text-dark " style={{textDecoration:'none',fontSize:'13px'}}> Forgot password?</NavLink>
         </div>
     </div>
 

@@ -143,22 +143,22 @@
   -ms-transition: all 0.3s linear; */
 }
 
-@media(max-width:568){
+/* @media(max-width:568){
   .a1{
     transition:hide;
     transition: none;
 
 
   }
-}
+} */
 
 
-  .a1:hover{
+  /* .a1:hover{
 
     cursor: pointer;
     width:320px;
 
-  }
+  } */
 
   .facebook{
 
