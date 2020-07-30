@@ -11,7 +11,7 @@ const Navbar=()=>{
     return(
 
         <>  
-        <section className="bg-dark">
+        <section className="bg-dark"style={{width:'100vw'}}>
         <div className="container nav_bg">
           <div className="row">
             <div className="col-12   ">
@@ -37,6 +37,9 @@ const Navbar=()=>{
                   <li className="nav-item">
                     <NavLink activeClassName="menu_active"exact style={{color:'white',fontSize:'14px'}} className="nav-link text-uppercase mr-2" to="/contact">Contact</NavLink>
                   </li>
+                  {/* <li className="nav-item">
+                    <NavLink activeClassName="menu_active"exact style={{color:'white',fontSize:'14px'}} className="nav-link text-uppercase mr-2" to="/page/jay/yadav/25">Page</NavLink>
+                  </li> */}
   
       
     </ul>

@@ -48,13 +48,14 @@
   
     @media (max-width:1200px){
       #jay{
-        transform: translateX(732px);
+        transform: translateX(725px);
       }}
+      
       @media (max-width:992px){
         #jay{
           transform: translateX(515px);
         }}
-  
+      
 
 
     @media (max-width:768px){

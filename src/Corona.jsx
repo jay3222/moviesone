@@ -65,7 +65,7 @@ const Corona=()=>{
          <div className="col-lg-5 col-md-5 col-10  bg-danger text-light  mx-auto   ">
          <div className="row">
          <h6 className="my-2">COVID-19 LIVE DATA TRACKER</h6>
-         <table className=" table table-responsive table-striped my-2 text-white " style={{fontSize:'12px',fontWeight:'normal'}}> 
+         <table className=" table table-responsive table-striped my-2 text-white " style={{fontSize:'11px',fontWeight:'normal'}}> 
              <tr>
              <th>Country</th>
              <th>TotalConfirmed</th>

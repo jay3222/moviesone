@@ -13,6 +13,8 @@ import Signin from "./Signin";
 import SignUp from "./SignUp";
 
 
+
+
 const App=() =>{
     return(
         <>
@@ -27,6 +29,8 @@ const App=() =>{
             <Route exact path="/signin" component={Signin}  />
             <Route exact path="/signUp" component={SignUp}  />
             <Redirect to="/home"/>
+       
+            
 
            
            

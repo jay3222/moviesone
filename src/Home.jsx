@@ -10,7 +10,7 @@ const Home=()=>{
   
     return(
         <>
-        <section className="home">
+        <section className="home"style={{width:'100vw'}}>
         <div className="container-fluid header-img  ">
         <div className="row">
        

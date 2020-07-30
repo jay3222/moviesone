@@ -7,7 +7,7 @@ const Footer=()=>{
 
          <>
 
-        <footer>
+        <footer style={{width:'100vw'}}>
         <div className="col-12 bg-dark text-white">
             <div className="row">
                 <div className="col-12 m-0 p-0 text-center">
