@@ -39,7 +39,7 @@ const Contact=()=>{
   }
     return (
         <>
-            <section style={{backgroundColor:'#038387',height:''}}>
+            <section className="contact-section" style={{backgroundColor:'#038387'}}>
            
             <div className="col-12 container ">
                 <div className="row">
@@ -99,7 +99,7 @@ const Contact=()=>{
   <input type="submit"  className="btn btn-outline-light bg-light text-dark btn-md my-2"    style={{boxShadow:'none'}} />
 </form>
    </div>
-   <div className="col-lg-7 col-md-7 col-10 d-flex mx-auto flex-row justify-content-center align-items-center my-3 " >
+   <div className="col-lg-7 col-md-7 col-10 d-flex mx-auto flex-row justify-content-center align-items-center my-5 " >
 
   <h1><MapContainer/></h1>
 

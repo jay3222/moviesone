@@ -45,11 +45,7 @@
     }}
 
 
-    @media (min-width:1200px){
-      #jay{
-        transform: translateX(1090px);
-      }}
-
+  
     @media (max-width:1200px){
       #jay{
         transform: translateX(732px);
@@ -121,7 +117,7 @@
   position: fixed;
   top:50%;
   left:0px;
-  transform:translateY(-55%);
+  transform:translateY(-50%);
 
 }
 
@@ -246,12 +242,14 @@
  /* about page */
 
  .hrtag{
-   width:250px;
+   width:250px !important;
    height:10px;}
 
    @media (max-width:576px){
     .about-para{
       transform: translateX(20px);
+      font-size:11px !important;
+
     }
       
     
@@ -259,7 +257,8 @@
   @media (max-width:768px){
    
     .about-para{
-      transform: translateX(10px);    }
+      transform: translateX(10px);
+      font-size: 12px;    }
     
   }
  
@@ -273,6 +272,18 @@
     overflow: hidden;
     border:1px solid yellow;
   
-  }
+}
+/* 
+contact */
 
+@media (min-width:952px){
+  .contact-section{
+    width:100vw !important;
+    height:100vh !important;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+  }
+    
+  }
  

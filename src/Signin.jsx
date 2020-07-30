@@ -35,11 +35,12 @@ const Signin=()=>{
   
     return(
         <>
-        <section style={{backgroundColor:'#038387'}}>
-         <div className="container w-100 h-auto ">
+        <section style={{backgroundColor:'#038387',width:'100vw',height:'100vh'}}>
+         <div className="container">
+   
     <div className="row">
-     <div className=" form-div col-lg-6 col-md-6 col-11 col col-sm-10 d-flex flex-row mx-auto  justify-content-center align-items-center " style={{cursor:'pointer'}}>
-<form className="text-center my-4 p-5 bg-danger text-white " onSubmit={formSubmit}>
+     <div className=" form-div col-lg-6 col-md-6 col-11 col col-sm-10 mt-5 mb-5  d-flex justify-content-center align-items-center" style={{cursor:'pointer',width:'100vw',height:'70vh'}}>
+<form className="text-center p-4 bg-danger text-white " onSubmit={formSubmit}>
 
     <h4 className=" mb-4">Sign in</h4>
       <div className="form-group">  
