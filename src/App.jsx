@@ -20,24 +20,16 @@ const App=() =>{
         <>
         <Navbar/>
         <Socialicon />
-            <Switch>
-            
-            <Route exact path="/home" component={Home} />
+        <Route exact path="/home" component={Home} />
             <Route exact path="/about" component={About} />
             <Route exact path="/service" component={Service} />
             <Route exact path="/contact" component={Contact} />
             <Route exact path="/signin" component={Signin}  />
             <Route exact path="/signUp" component={SignUp}  />
-            <Redirect to="/home"/>
-       
-            
-
-           
-           
-            </Switch>
+            <Redirect to="/home"/>  
          
-            <Footer/>
-           
+        
+          <Footer/> 
         </>
     );
 

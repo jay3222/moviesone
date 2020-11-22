@@ -22,7 +22,7 @@ const Card=(props)=>{
 
         <>
                             
-             <div className=" col-xl-4 col-xxl-4 col-lg-4 col-md-6 col-12 mx-auto mb-5">
+             <div className=" col-xl-4 col-xxl-4 col-lg-4 col-md-4 col-12 mx-auto mb-5">
                             <div className="card   shadow-sm  mb-5 " style={cardsize}>
                             <img style={{width:'100%',height:'45vh',margin:'0',padding:'0'}} src={props.imgsrc} className="card-img-top" alt="dark-img"  />
                             <div className="card-body">

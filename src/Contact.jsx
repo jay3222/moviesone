@@ -39,12 +39,16 @@ const Contact=()=>{
   }
     return (
         <>
-            <section className="contact-section" style={{backgroundColor:'#038387'}}>
+            <section className="" style={{backgroundColor:'#038387',width:"100%",height:"100vh"}}>
            
-            <div className="col-12 container ">
-                <div className="row">
-             
-                <div className="col-lg-5 col-md-5 col-10 mx-auto  bg-danger text-white my-5  ">
+          
+
+
+             <div className="container">
+             <div className="row">
+             <div className="col-12">
+             <div className="row">
+                <div className="col-lg-5 col-md-5 col-10 mx-auto  bg-danger text-white my-5 mx-3  ">
                 <h1 className="text-center my-2">Contact</h1>
                 <h6>our team is happy to answer your questions.Fill out the form  and we will be in touch as soon as possible.</h6>
                 <form className="form-group" onSubmit={formSubmit}>
@@ -106,6 +110,8 @@ const Contact=()=>{
                     </div>
             </div>
 
+                </div>
+                </div>
                 </div>
     
       </section>

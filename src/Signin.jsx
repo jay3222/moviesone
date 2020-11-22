@@ -35,7 +35,7 @@ const Signin=()=>{
   
     return(
         <>
-        <section style={{backgroundColor:'#038387',width:'100vw',height:'100vh'}}>
+        <section style={{backgroundColor:'#038387',width:'100%',height:'100vh'}}>
          <div className="container">
    
     <div className="row">

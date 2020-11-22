@@ -5,8 +5,10 @@ const SignUp=()=>{
 
     return(
         <>
-        
-        <div className=" bg-info"style={{width:'100vw',height:'100vh'}}>
+        <div className="container-fluid bg-info" style={{width:'100%',height:'100vh'}}>
+          <div className="row">
+            <div className="col-12">
+      
               <nav aria-label="breadcrumb">
   <ol className="breadcrumb bg-transparent text-white " style={{color:'whhite'}}>
     <li className="breadcrumb-item text-light"><NavLink to="/home" style={{color:'white',textDecoration:'none'}}>Home</NavLink></li>
@@ -69,7 +71,7 @@ const SignUp=()=>{
                 </div>
 
                 </div>
-
+</div></div>
             </div>
         </div>
 
