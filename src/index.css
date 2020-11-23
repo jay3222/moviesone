@@ -70,7 +70,7 @@
                 .signin-btn{
                   position: absolute;
                   top:10px;
-                  right:80px !important;
+                  right:40px !important;
                   border-radius:0px !important;
                   } 
                 }
@@ -84,6 +84,16 @@
     border-radius:0px !important;
     }
  }
+
+ @media (min-width:1400px) { 
+  .signin-btn{
+    position: absolute;
+    top:0px;
+    right:30px !important;
+    border-radius:0px !important;
+    }
+ }
+
 
 
    @media (min-width: 1200px) {

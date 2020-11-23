@@ -24,7 +24,7 @@ const Navbar=()=>{
               </button>
 
               <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul className="navbar-nav ml-auto text-center mr-5"style={{zIndex:999999}}>
+                <ul className="navbar-nav ml-auto text-center" style={{zIndex:999999,marginRight:"5rem"}}>
                   <li className="nav-item active">
                     <NavLink activeClassName="menu_active"exact style={{color:'white',fontSize:'14px'}}  className="nav-link text-uppercase mr-2  " to="/home">Home <span className="sr-only">(current)</span></NavLink>
                   </li>
@@ -35,7 +35,7 @@ const Navbar=()=>{
                     <NavLink activeClassName="menu_active"exact style={{color:'white',fontSize:'14px'}} className="nav-link text-uppercase mr-2" to="/about">About</NavLink>
                   </li>
                   <li className="nav-item">
-                    <NavLink activeClassName="menu_active"exact style={{color:'white',fontSize:'14px'}} className="nav-link text-uppercase mr-5" to="/contact">Contact</NavLink>
+                    <NavLink activeClassName="menu_active"exact style={{color:'white',fontSize:'14px'}} className="nav-link text-uppercase mr-2" to="/contact">Contact</NavLink>
                   </li>
                   {/* <li className="nav-item">
                     <NavLink activeClassName="menu_active"exact style={{color:'white',fontSize:'14px'}} className="nav-link text-uppercase mr-2" to="/page/jay/yadav/25">Page</NavLink>
