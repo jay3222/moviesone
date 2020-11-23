@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/moviesone/static/css/main.0d39540c.chunk.css",
-    "main.js": "/moviesone/static/js/main.1986c4ed.chunk.js",
-    "main.js.map": "/moviesone/static/js/main.1986c4ed.chunk.js.map",
+    "main.css": "/moviesone/static/css/main.3f3f56a9.chunk.css",
+    "main.js": "/moviesone/static/js/main.9b93f41d.chunk.js",
+    "main.js.map": "/moviesone/static/js/main.9b93f41d.chunk.js.map",
     "runtime-main.js": "/moviesone/static/js/runtime-main.97922ef2.js",
     "runtime-main.js.map": "/moviesone/static/js/runtime-main.97922ef2.js.map",
     "static/css/2.75c4ecca.chunk.css": "/moviesone/static/css/2.75c4ecca.chunk.css",
-    "static/js/2.842ee110.chunk.js": "/moviesone/static/js/2.842ee110.chunk.js",
-    "static/js/2.842ee110.chunk.js.map": "/moviesone/static/js/2.842ee110.chunk.js.map",
+    "static/js/2.80f8c859.chunk.js": "/moviesone/static/js/2.80f8c859.chunk.js",
+    "static/js/2.80f8c859.chunk.js.map": "/moviesone/static/js/2.80f8c859.chunk.js.map",
     "index.html": "/moviesone/index.html",
-    "precache-manifest.d42f3d9721d7b4083caa5a8578e240de.js": "/moviesone/precache-manifest.d42f3d9721d7b4083caa5a8578e240de.js",
+    "precache-manifest.75d00ba6fb85302c6779004dddfaab4a.js": "/moviesone/precache-manifest.75d00ba6fb85302c6779004dddfaab4a.js",
     "service-worker.js": "/moviesone/service-worker.js",
     "static/css/2.75c4ecca.chunk.css.map": "/moviesone/static/css/2.75c4ecca.chunk.css.map",
-    "static/css/main.0d39540c.chunk.css.map": "/moviesone/static/css/main.0d39540c.chunk.css.map",
-    "static/js/2.842ee110.chunk.js.LICENSE.txt": "/moviesone/static/js/2.842ee110.chunk.js.LICENSE.txt",
+    "static/css/main.3f3f56a9.chunk.css.map": "/moviesone/static/css/main.3f3f56a9.chunk.css.map",
+    "static/js/2.80f8c859.chunk.js.LICENSE.txt": "/moviesone/static/js/2.80f8c859.chunk.js.LICENSE.txt",
     "static/media/bahubali2.jpg": "/moviesone/static/media/bahubali2.6ebd0bc1.jpg",
     "static/media/dark.jpg": "/moviesone/static/media/dark.02f69ce2.jpg",
     "static/media/extra.png": "/moviesone/static/media/extra.c93c7f15.png",
@@ -24,8 +24,8 @@
   "entrypoints": [
     "static/js/runtime-main.97922ef2.js",
     "static/css/2.75c4ecca.chunk.css",
-    "static/js/2.842ee110.chunk.js",
-    "static/css/main.0d39540c.chunk.css",
-    "static/js/main.1986c4ed.chunk.js"
+    "static/js/2.80f8c859.chunk.js",
+    "static/css/main.3f3f56a9.chunk.css",
+    "static/js/main.9b93f41d.chunk.js"
   ]
 }
